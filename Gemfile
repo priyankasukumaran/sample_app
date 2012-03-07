@@ -6,8 +6,12 @@ gem 'rails', '3.2.2'
 gem "heroku"
 group :development, :test do
   gem 'sqlite3'
-  gem 'rspec-rails', '2.6.1'
-  gem 'webrat', '0.7.1'
+  gem 'rspec-rails'
+  gem 'webrat'
+  gem 'spork', '> 0.9.0.rc'
+  gem 'ZenTest'
+  gem 'autotest-growl'
+
 end
 group :production do
   gem 'pg'
